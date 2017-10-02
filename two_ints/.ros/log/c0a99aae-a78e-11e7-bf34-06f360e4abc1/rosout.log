@@ -1,0 +1,214 @@
+
+
+1506961722.444426567  Node Startup
+1506961792.843847036 ERROR [topics.py:723(_invoke_callback) [topics: /sum, /two_ints, /rosout] bad callback: <function callback at 0x7f2f4fbd0e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 21, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 10, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+1506961794.838531017 ERROR [topics.py:723(_invoke_callback) [topics: /sum, /two_ints, /rosout] bad callback: <function callback at 0x7f2f4fbd0e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 21, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 10, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+1506961796.837538003 ERROR [topics.py:723(_invoke_callback) [topics: /sum, /two_ints, /rosout] bad callback: <function callback at 0x7f2f4fbd0e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 21, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 10, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+1506961799.092745065 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /two_ints, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1506961900.850660085 ERROR [topics.py:723(_invoke_callback) [topics: /sum, /two_ints, /rosout] bad callback: <function callback at 0x7fd845ea8e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 23, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 11, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+1506961902.838543891 ERROR [topics.py:723(_invoke_callback) [topics: /sum, /two_ints, /rosout] bad callback: <function callback at 0x7fd845ea8e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 23, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 11, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+1506961904.838407039 ERROR [topics.py:723(_invoke_callback) [topics: /sum, /two_ints, /rosout] bad callback: <function callback at 0x7fd845ea8e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 23, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 11, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+1506961906.838411092 ERROR [topics.py:723(_invoke_callback) [topics: /sum, /two_ints, /rosout] bad callback: <function callback at 0x7fd845ea8e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 23, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 11, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+1506961908.827373027 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /two_ints, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1506962346.459306001 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /two_ints, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1506963156.843799114 ERROR [topics.py:723(_invoke_callback) [topics: /sum, /two_ints, /rosout] bad callback: <function callback at 0x7f3a50a65e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 22, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 10, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+1506963298.843053102 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963298.943289041 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963299.043286085 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963299.143191099 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963299.243184089 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963299.343195915 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963299.443213939 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963299.543282032 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963299.643265008 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963299.743201971 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963299.843179941 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963299.943195104 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963300.043246984 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963300.143228054 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963300.243232965 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963300.343221902 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963300.443212985 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963300.543229103 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963300.643238067 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963300.743262052 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963300.843206882 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963300.943219900 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963301.043230056 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963301.143219947 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963301.243262052 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963301.343278884 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963301.443322896 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963301.543298959 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963301.643300056 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963301.743305921 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963301.843301057 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963301.943284988 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963302.043231964 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963302.143254041 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963302.243240118 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963302.343239068 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963302.443226099 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963302.543225049 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963302.643229007 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963302.743191003 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963302.843206882 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963302.943264007 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963303.043210029 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963303.143265962 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963303.243233919 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963303.343281030 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963303.443305969 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963303.543251991 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963303.643198966 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963303.743186950 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963303.843070030 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963303.943216085 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963304.043258905 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963304.143223047 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963304.243240118 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963304.343182086 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963304.443274974 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963304.543294906 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963304.643238067 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963304.743201017 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963304.843189954 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963304.943274974 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963305.043247938 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963305.143218994 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963305.243091106 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963305.343170881 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963305.443186998 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963305.543173074 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963305.643230915 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963305.743185043 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963305.843188047 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963305.943171977 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963306.043148040 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963306.143209934 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963306.243252992 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963306.343318939 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963306.443208932 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963306.543214082 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963306.643347024 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963306.743252038 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963306.843190908 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963306.943176031 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963307.043179035 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963307.143235921 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963307.243252038 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963307.343266963 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963307.443275928 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963307.543263912 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963307.643244028 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963307.743268013 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963307.843267917 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963307.943268060 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963308.043267011 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963308.143239974 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963308.243271112 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963308.343235969 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963308.443172931 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963308.543200016 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963308.643251895 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963308.743175983 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963308.843266963 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963308.943243980 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963309.043198108 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963309.143285036 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963309.243284940 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963309.343202114 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963309.443212985 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963309.543260097 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963309.643285989 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963309.743278980 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963309.843282938 INFO [solution.py:15(publish) [topics: /sum, /two_ints, /rosout] 12
+1506963384.435024023 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /two_ints, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.

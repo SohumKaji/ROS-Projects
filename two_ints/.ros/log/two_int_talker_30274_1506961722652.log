@@ -1,0 +1,71 @@
+[rospy.client][INFO] 2017-10-02 09:28:42,685: init_node, name[/two_int_talker_30274_1506961722652], pid[30274]
+[xmlrpc][INFO] 2017-10-02 09:28:42,686: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-02 09:28:42,691: Started XML-RPC server [http://ip-172-31-19-100:56954/]
+[rospy.init][INFO] 2017-10-02 09:28:42,691: ROS Slave URI: [http://ip-172-31-19-100:56954/]
+[rospy.impl.masterslave][INFO] 2017-10-02 09:28:42,695: _ready: http://ip-172-31-19-100:56954/
+[xmlrpc][INFO] 2017-10-02 09:28:42,708: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-10-02 09:28:42,708: Registering with master node http://localhost:47885
+[rospy.registration][INFO] 2017-10-02 09:28:42,715: Registering publisher topic [/two_ints] type [project1_solution/TwoInts] with master
+[rospy.init][INFO] 2017-10-02 09:28:42,804: registered with master
+[rospy.rosout][INFO] 2017-10-02 09:28:42,810: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-02 09:28:42,818: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-02 09:28:42,822: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-02 09:28:43,042: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-02 09:29:51,941: topic[/two_ints] adding connection to [/listener_30830_1506961791712], count 0
+[rosout][WARNING] 2017-10-02 09:29:59,092: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-10-02 09:29:59,096: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2017-10-02 09:30:00,838: topic[/two_ints] removing connection to /listener_30830_1506961791712
+[rospy.internal][INFO] 2017-10-02 09:30:16,368: topic[/two_ints] adding connection to [/listener_30999_1506961816131], count 0
+[rospy.internal][INFO] 2017-10-02 09:30:30,838: topic[/two_ints] removing connection to /listener_30999_1506961816131
+[rospy.internal][INFO] 2017-10-02 09:31:08,284: topic[/two_ints] adding connection to [/listener_31341_1506961868053], count 0
+[rospy.internal][INFO] 2017-10-02 09:31:16,838: topic[/two_ints] removing connection to /listener_31341_1506961868053
+[rospy.internal][INFO] 2017-10-02 09:31:39,695: topic[/two_ints] adding connection to [/listener_31515_1506961899469], count 0
+[rosout][WARNING] 2017-10-02 09:31:48,827: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-10-02 09:31:48,828: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2017-10-02 09:31:50,838: topic[/two_ints] removing connection to /listener_31515_1506961899469
+[rospy.internal][INFO] 2017-10-02 09:38:20,344: topic[/two_ints] adding connection to [/listener_1708_1506962300117], count 0
+[rospy.internal][INFO] 2017-10-02 09:38:34,838: topic[/two_ints] removing connection to /listener_1708_1506962300117
+[rospy.internal][INFO] 2017-10-02 09:39:02,145: topic[/two_ints] adding connection to [/listener_2072_1506962341911], count 0
+[rosout][WARNING] 2017-10-02 09:39:06,459: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-10-02 09:39:06,463: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2017-10-02 09:39:08,838: topic[/two_ints] removing connection to /listener_2072_1506962341911
+[rospy.internal][INFO] 2017-10-02 09:52:36,518: topic[/two_ints] adding connection to [/listener_11382_1506963156296], count 0
+[rospy.internal][INFO] 2017-10-02 09:52:40,838: topic[/two_ints] removing connection to /listener_11382_1506963156296
+[rospy.internal][INFO] 2017-10-02 09:54:38,206: topic[/two_ints] adding connection to [/listener_11823_1506963277976], count 0
+[rospy.internal][INFO] 2017-10-02 09:54:44,838: topic[/two_ints] removing connection to /listener_11823_1506963277976
+[rospy.internal][INFO] 2017-10-02 09:54:58,644: topic[/two_ints] adding connection to [/listener_11939_1506963298453], count 0
+[rospy.internal][INFO] 2017-10-02 09:55:10,836: topic[/two_ints] removing connection to /listener_11939_1506963298453
+[rospy.internal][INFO] 2017-10-02 09:56:15,685: topic[/two_ints] adding connection to [/listener_12566_1506963375440], count 0
+[rosout][WARNING] 2017-10-02 09:56:24,434: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-10-02 09:56:24,442: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2017-10-02 09:56:26,838: topic[/two_ints] removing connection to /listener_12566_1506963375440
+[rospy.internal][INFO] 2017-10-02 09:56:39,410: topic[/two_ints] adding connection to [/listener_12682_1506963399168], count 0
+[rospy.internal][INFO] 2017-10-02 09:56:50,837: topic[/two_ints] removing connection to /listener_12682_1506963399168

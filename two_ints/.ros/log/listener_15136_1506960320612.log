@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2017-10-02 09:05:20,647: init_node, name[/listener_15136_1506960320612], pid[15136]
+[xmlrpc][INFO] 2017-10-02 09:05:20,647: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-02 09:05:20,652: Started XML-RPC server [http://ip-172-31-19-100:36213/]
+[rospy.init][INFO] 2017-10-02 09:05:20,652: ROS Slave URI: [http://ip-172-31-19-100:36213/]
+[rospy.impl.masterslave][INFO] 2017-10-02 09:05:20,655: _ready: http://ip-172-31-19-100:36213/
+[xmlrpc][INFO] 2017-10-02 09:05:20,662: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-10-02 09:05:20,662: Registering with master node http://localhost:49466
+[rospy.init][INFO] 2017-10-02 09:05:20,759: registered with master
+[rospy.rosout][INFO] 2017-10-02 09:05:20,762: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-02 09:05:20,768: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-02 09:05:20,772: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-02 09:05:20,835: topic[/two_ints] adding connection to [http://ip-172-31-19-100:49315/], count 0
+[rospy.internal][INFO] 2017-10-02 09:05:20,975: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2017-10-02 09:05:27,519: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-02 09:05:27,597: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-02 09:05:27,603: topic[/two_ints] removing connection to http://ip-172-31-19-100:49315/
+[rospy.internal][WARNING] 2017-10-02 09:05:27,603: Unknown error initiating TCP/IP socket to ip-172-31-19-100:56966 (http://ip-172-31-19-100:49315/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.impl.masterslave][INFO] 2017-10-02 09:05:27,620: signal-2
+[rospy.core][INFO] 2017-10-02 09:05:28,192: signal_shutdown [atexit]

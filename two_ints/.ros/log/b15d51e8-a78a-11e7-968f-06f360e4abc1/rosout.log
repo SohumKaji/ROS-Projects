@@ -1,0 +1,38 @@
+
+
+1506959978.882137804  Node Startup
+1506960233.018701076 ERROR [topics.py:723(_invoke_callback) [topics: /two_ints, /rosout] bad callback: <function callback at 0x7f8ace584b18>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 8, in callback
+    print(data.data)
+AttributeError: 'TwoInts' object has no attribute 'data'
+
+1506960235.017771005 ERROR [topics.py:723(_invoke_callback) [topics: /two_ints, /rosout] bad callback: <function callback at 0x7f8ace584b18>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 8, in callback
+    print(data.data)
+AttributeError: 'TwoInts' object has no attribute 'data'
+
+1506960237.018883943 ERROR [topics.py:723(_invoke_callback) [topics: /two_ints, /rosout] bad callback: <function callback at 0x7f8ace584b18>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 8, in callback
+    print(data.data)
+AttributeError: 'TwoInts' object has no attribute 'data'
+
+1506960239.018872976 ERROR [topics.py:723(_invoke_callback) [topics: /two_ints, /rosout] bad callback: <function callback at 0x7f8ace584b18>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 8, in callback
+    print(data.data)
+AttributeError: 'TwoInts' object has no attribute 'data'
+
+1506960328.223016023 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /two_ints, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1506960358.028825998 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /two_ints, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1506960387.073860883 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /two_ints, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.

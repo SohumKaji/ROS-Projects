@@ -1,0 +1,80 @@
+[rospy.client][INFO] 2017-10-02 09:31:39,502: init_node, name[/listener_31515_1506961899469], pid[31515]
+[xmlrpc][INFO] 2017-10-02 09:31:39,503: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-02 09:31:39,507: Started XML-RPC server [http://ip-172-31-19-100:40404/]
+[rospy.init][INFO] 2017-10-02 09:31:39,507: ROS Slave URI: [http://ip-172-31-19-100:40404/]
+[rospy.impl.masterslave][INFO] 2017-10-02 09:31:39,510: _ready: http://ip-172-31-19-100:40404/
+[rospy.registration][INFO] 2017-10-02 09:31:39,517: Registering with master node http://localhost:47885
+[xmlrpc][INFO] 2017-10-02 09:31:39,517: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-02 09:31:39,613: registered with master
+[rospy.rosout][INFO] 2017-10-02 09:31:39,617: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-02 09:31:39,629: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-02 09:31:39,633: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-02 09:31:39,690: topic[/two_ints] adding connection to [http://ip-172-31-19-100:56954/], count 0
+[rospy.internal][INFO] 2017-10-02 09:31:39,849: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2017-10-02 09:31:40,850: bad callback: <function callback at 0x7fd845ea8e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 23, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 11, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+[rosout][ERROR] 2017-10-02 09:31:42,838: bad callback: <function callback at 0x7fd845ea8e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 23, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 11, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+[rosout][ERROR] 2017-10-02 09:31:44,838: bad callback: <function callback at 0x7fd845ea8e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 23, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 11, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+[rosout][ERROR] 2017-10-02 09:31:46,838: bad callback: <function callback at 0x7fd845ea8e60>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 23, in callback
+    publish(data.a+data.b)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 11, in publish
+    rospy.init_node('publisher', anonymous=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/client.py", line 271, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('listener', ['/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py'], True, None, False, False)
+
+[rospy.core][INFO] 2017-10-02 09:31:48,201: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-02 09:31:48,229: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-02 09:31:48,232: topic[/two_ints] removing connection to http://ip-172-31-19-100:56954/
+[rospy.internal][WARNING] 2017-10-02 09:31:48,233: Unknown error initiating TCP/IP socket to ip-172-31-19-100:48833 (http://ip-172-31-19-100:56954/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2017-10-02 09:31:48,236: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2017-10-02 09:31:48,242: signal-2
+[rospy.core][INFO] 2017-10-02 09:31:48,812: signal_shutdown [atexit]

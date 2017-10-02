@@ -1,0 +1,50 @@
+[rospy.client][INFO] 2017-10-02 09:03:51,534: init_node, name[/listener_14513_1506960231346], pid[14513]
+[xmlrpc][INFO] 2017-10-02 09:03:51,534: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-02 09:03:51,540: Started XML-RPC server [http://ip-172-31-19-100:50986/]
+[rospy.init][INFO] 2017-10-02 09:03:51,540: ROS Slave URI: [http://ip-172-31-19-100:50986/]
+[rospy.impl.masterslave][INFO] 2017-10-02 09:03:51,544: _ready: http://ip-172-31-19-100:50986/
+[xmlrpc][INFO] 2017-10-02 09:03:51,551: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-10-02 09:03:51,551: Registering with master node http://localhost:49466
+[rospy.init][INFO] 2017-10-02 09:03:51,647: registered with master
+[rospy.rosout][INFO] 2017-10-02 09:03:51,651: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-02 09:03:51,657: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-02 09:03:51,666: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-02 09:03:51,730: topic[/two_ints] adding connection to [http://ip-172-31-19-100:49315/], count 0
+[rospy.internal][INFO] 2017-10-02 09:03:51,921: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2017-10-02 09:03:53,018: bad callback: <function callback at 0x7f8ace584b18>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 8, in callback
+    print(data.data)
+AttributeError: 'TwoInts' object has no attribute 'data'
+
+[rosout][ERROR] 2017-10-02 09:03:55,017: bad callback: <function callback at 0x7f8ace584b18>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 8, in callback
+    print(data.data)
+AttributeError: 'TwoInts' object has no attribute 'data'
+
+[rosout][ERROR] 2017-10-02 09:03:57,018: bad callback: <function callback at 0x7f8ace584b18>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 8, in callback
+    print(data.data)
+AttributeError: 'TwoInts' object has no attribute 'data'
+
+[rosout][ERROR] 2017-10-02 09:03:59,018: bad callback: <function callback at 0x7f8ace584b18>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_NDU1M_86698/asn17208_Project_1/asn17209_Project_1/work/catkin_ws/src/project1_solution/scripts/solution.py", line 8, in callback
+    print(data.data)
+AttributeError: 'TwoInts' object has no attribute 'data'
+
+[rospy.core][INFO] 2017-10-02 09:03:59,395: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-02 09:03:59,424: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-02 09:03:59,428: topic[/two_ints] removing connection to http://ip-172-31-19-100:49315/
+[rospy.impl.masterslave][INFO] 2017-10-02 09:03:59,431: signal-2
+[rospy.core][INFO] 2017-10-02 09:03:59,545: signal_shutdown [atexit]

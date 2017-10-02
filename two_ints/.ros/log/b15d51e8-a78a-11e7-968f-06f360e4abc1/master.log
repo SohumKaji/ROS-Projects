@@ -1,0 +1,79 @@
+[rosmaster.main][INFO] 2017-10-02 08:59:38,577: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-10-02 08:59:38,577: Starting ROS Master Node
+[xmlrpc][INFO] 2017-10-02 08:59:38,582: XML-RPC server binding to 0.0.0.0:49466
+[xmlrpc][INFO] 2017-10-02 08:59:38,587: Started XML-RPC server [http://ip-172-31-19-100:49466/]
+[rosmaster.master][INFO] 2017-10-02 08:59:38,587: Master initialized: port[49466], uri[http://ip-172-31-19-100:49466/]
+[xmlrpc][INFO] 2017-10-02 08:59:38,590: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-10-02 08:59:38,685: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-02 08:59:38,767: +PARAM [/roslaunch/uris/host_ip_172_31_19_100__54154] by /roslaunch
+[rosmaster.master][INFO] 2017-10-02 08:59:38,868: +SERVICE [/rosout/get_loggers] /rosout http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 08:59:38,872: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-10-02 08:59:38,873: +SERVICE [/rosout/set_logger_level] /rosout http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 08:59:38,876: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-10-02 08:59:38,882: +PUB [/rosout_agg] /rosout http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 08:59:38,892: +SUB [/rosout] /rosout http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 08:59:50,893: +PUB [/two_ints] /two_int_talker_12609_1506959990827 http://ip-172-31-19-100:49315/
+[rosmaster.master][INFO] 2017-10-02 08:59:50,986: +PUB [/rosout] /two_int_talker_12609_1506959990827 http://ip-172-31-19-100:49315/
+[rosmaster.master][INFO] 2017-10-02 08:59:51,002: +SERVICE [/two_int_talker_12609_1506959990827/get_loggers] /two_int_talker_12609_1506959990827 http://ip-172-31-19-100:49315/
+[rosmaster.master][INFO] 2017-10-02 08:59:51,003: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 08:59:51,007: +SERVICE [/two_int_talker_12609_1506959990827/set_logger_level] /two_int_talker_12609_1506959990827 http://ip-172-31-19-100:49315/
+[rosmaster.master][INFO] 2017-10-02 09:02:15,975: +PUB [/rosout] /listener_13686_1506960135819 http://ip-172-31-19-100:35968/
+[rosmaster.master][INFO] 2017-10-02 09:02:15,985: +SERVICE [/listener_13686_1506960135819/get_loggers] /listener_13686_1506960135819 http://ip-172-31-19-100:35968/
+[rosmaster.master][INFO] 2017-10-02 09:02:15,994: +SERVICE [/listener_13686_1506960135819/set_logger_level] /listener_13686_1506960135819 http://ip-172-31-19-100:35968/
+[rosmaster.master][INFO] 2017-10-02 09:02:15,999: +SUB [/two_ints] /listener_13686_1506960135819 http://ip-172-31-19-100:35968/
+[rosmaster.master][INFO] 2017-10-02 09:02:16,007: -SUB [/two_ints] /listener_13686_1506960135819 http://ip-172-31-19-100:35968/
+[rosmaster.master][INFO] 2017-10-02 09:02:16,011: -PUB [/rosout] /listener_13686_1506960135819 http://ip-172-31-19-100:35968/
+[rosmaster.master][INFO] 2017-10-02 09:02:16,014: -SERVICE [/listener_13686_1506960135819/set_logger_level] /listener_13686_1506960135819 rosrpc://ip-172-31-19-100:56603
+[rosmaster.master][INFO] 2017-10-02 09:02:16,018: -SERVICE [/listener_13686_1506960135819/get_loggers] /listener_13686_1506960135819 rosrpc://ip-172-31-19-100:56603
+[rosmaster.master][INFO] 2017-10-02 09:02:16,051: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:02:16,055: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:03:51,656: +PUB [/rosout] /listener_14513_1506960231346 http://ip-172-31-19-100:50986/
+[rosmaster.master][INFO] 2017-10-02 09:03:51,670: +SERVICE [/listener_14513_1506960231346/get_loggers] /listener_14513_1506960231346 http://ip-172-31-19-100:50986/
+[rosmaster.master][INFO] 2017-10-02 09:03:51,674: +SERVICE [/listener_14513_1506960231346/set_logger_level] /listener_14513_1506960231346 http://ip-172-31-19-100:50986/
+[rosmaster.master][INFO] 2017-10-02 09:03:51,679: +SUB [/two_ints] /listener_14513_1506960231346 http://ip-172-31-19-100:50986/
+[rosmaster.master][INFO] 2017-10-02 09:03:51,715: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:03:59,401: -SUB [/two_ints] /listener_14513_1506960231346 http://ip-172-31-19-100:50986/
+[rosmaster.master][INFO] 2017-10-02 09:03:59,405: -PUB [/rosout] /listener_14513_1506960231346 http://ip-172-31-19-100:50986/
+[rosmaster.master][INFO] 2017-10-02 09:03:59,415: -SERVICE [/listener_14513_1506960231346/get_loggers] /listener_14513_1506960231346 rosrpc://ip-172-31-19-100:39016
+[rosmaster.master][INFO] 2017-10-02 09:03:59,419: -SERVICE [/listener_14513_1506960231346/set_logger_level] /listener_14513_1506960231346 rosrpc://ip-172-31-19-100:39016
+[rosmaster.master][INFO] 2017-10-02 09:03:59,430: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:04:24,522: +PUB [/rosout] /listener_14751_1506960264356 http://ip-172-31-19-100:50700/
+[rosmaster.master][INFO] 2017-10-02 09:04:24,535: +SERVICE [/listener_14751_1506960264356/get_loggers] /listener_14751_1506960264356 http://ip-172-31-19-100:50700/
+[rosmaster.master][INFO] 2017-10-02 09:04:24,539: +SERVICE [/listener_14751_1506960264356/set_logger_level] /listener_14751_1506960264356 http://ip-172-31-19-100:50700/
+[rosmaster.master][INFO] 2017-10-02 09:04:24,545: +SUB [/two_ints] /listener_14751_1506960264356 http://ip-172-31-19-100:50700/
+[rosmaster.master][INFO] 2017-10-02 09:04:24,574: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:04:30,728: -SUB [/two_ints] /listener_14751_1506960264356 http://ip-172-31-19-100:50700/
+[rosmaster.master][INFO] 2017-10-02 09:04:30,729: -PUB [/rosout] /listener_14751_1506960264356 http://ip-172-31-19-100:50700/
+[rosmaster.master][INFO] 2017-10-02 09:04:30,733: -SERVICE [/listener_14751_1506960264356/set_logger_level] /listener_14751_1506960264356 rosrpc://ip-172-31-19-100:58528
+[rosmaster.master][INFO] 2017-10-02 09:04:30,736: -SERVICE [/listener_14751_1506960264356/get_loggers] /listener_14751_1506960264356 rosrpc://ip-172-31-19-100:58528
+[rosmaster.master][INFO] 2017-10-02 09:04:30,784: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:05:20,767: +PUB [/rosout] /listener_15136_1506960320612 http://ip-172-31-19-100:36213/
+[rosmaster.master][INFO] 2017-10-02 09:05:20,770: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:05:20,776: +SERVICE [/listener_15136_1506960320612/get_loggers] /listener_15136_1506960320612 http://ip-172-31-19-100:36213/
+[rosmaster.master][INFO] 2017-10-02 09:05:20,782: +SERVICE [/listener_15136_1506960320612/set_logger_level] /listener_15136_1506960320612 http://ip-172-31-19-100:36213/
+[rosmaster.master][INFO] 2017-10-02 09:05:20,787: +SUB [/two_ints] /listener_15136_1506960320612 http://ip-172-31-19-100:36213/
+[rosmaster.master][INFO] 2017-10-02 09:05:27,526: -SUB [/two_ints] /listener_15136_1506960320612 http://ip-172-31-19-100:36213/
+[rosmaster.master][INFO] 2017-10-02 09:05:27,542: -PUB [/rosout] /listener_15136_1506960320612 http://ip-172-31-19-100:36213/
+[rosmaster.master][INFO] 2017-10-02 09:05:27,580: -SERVICE [/listener_15136_1506960320612/get_loggers] /listener_15136_1506960320612 rosrpc://ip-172-31-19-100:36663
+[rosmaster.master][INFO] 2017-10-02 09:05:27,584: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:05:27,590: -SERVICE [/listener_15136_1506960320612/set_logger_level] /listener_15136_1506960320612 rosrpc://ip-172-31-19-100:36663
+[rosmaster.master][INFO] 2017-10-02 09:05:42,086: +PUB [/rosout] /listener_15420_1506960341923 http://ip-172-31-19-100:34500/
+[rosmaster.master][INFO] 2017-10-02 09:05:42,099: +SERVICE [/listener_15420_1506960341923/get_loggers] /listener_15420_1506960341923 http://ip-172-31-19-100:34500/
+[rosmaster.master][INFO] 2017-10-02 09:05:42,103: +SERVICE [/listener_15420_1506960341923/set_logger_level] /listener_15420_1506960341923 http://ip-172-31-19-100:34500/
+[rosmaster.master][INFO] 2017-10-02 09:05:42,108: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:05:42,109: +SUB [/two_ints] /listener_15420_1506960341923 http://ip-172-31-19-100:34500/
+[rosmaster.master][INFO] 2017-10-02 09:05:57,348: -SUB [/two_ints] /listener_15420_1506960341923 http://ip-172-31-19-100:34500/
+[rosmaster.master][INFO] 2017-10-02 09:05:57,349: -PUB [/rosout] /listener_15420_1506960341923 http://ip-172-31-19-100:34500/
+[rosmaster.master][INFO] 2017-10-02 09:05:57,352: -SERVICE [/listener_15420_1506960341923/get_loggers] /listener_15420_1506960341923 rosrpc://ip-172-31-19-100:36636
+[rosmaster.master][INFO] 2017-10-02 09:05:57,355: -SERVICE [/listener_15420_1506960341923/set_logger_level] /listener_15420_1506960341923 rosrpc://ip-172-31-19-100:36636
+[rosmaster.master][INFO] 2017-10-02 09:05:57,435: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:06:16,535: +PUB [/rosout] /listener_15891_1506960376379 http://ip-172-31-19-100:54315/
+[rosmaster.master][INFO] 2017-10-02 09:06:16,571: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
+[rosmaster.master][INFO] 2017-10-02 09:06:16,757: +SERVICE [/listener_15891_1506960376379/get_loggers] /listener_15891_1506960376379 http://ip-172-31-19-100:54315/
+[rosmaster.master][INFO] 2017-10-02 09:06:16,762: +SERVICE [/listener_15891_1506960376379/set_logger_level] /listener_15891_1506960376379 http://ip-172-31-19-100:54315/
+[rosmaster.master][INFO] 2017-10-02 09:06:16,767: +SUB [/two_ints] /listener_15891_1506960376379 http://ip-172-31-19-100:54315/
+[rosmaster.master][INFO] 2017-10-02 09:06:26,392: -SUB [/two_ints] /listener_15891_1506960376379 http://ip-172-31-19-100:54315/
+[rosmaster.master][INFO] 2017-10-02 09:06:26,395: -PUB [/rosout] /listener_15891_1506960376379 http://ip-172-31-19-100:54315/
+[rosmaster.master][INFO] 2017-10-02 09:06:26,399: -SERVICE [/listener_15891_1506960376379/set_logger_level] /listener_15891_1506960376379 rosrpc://ip-172-31-19-100:56724
+[rosmaster.master][INFO] 2017-10-02 09:06:26,463: -SERVICE [/listener_15891_1506960376379/get_loggers] /listener_15891_1506960376379 rosrpc://ip-172-31-19-100:56724
+[rosmaster.master][INFO] 2017-10-02 09:06:26,469: publisherUpdate[/rosout] -> http://ip-172-31-19-100:48847/
