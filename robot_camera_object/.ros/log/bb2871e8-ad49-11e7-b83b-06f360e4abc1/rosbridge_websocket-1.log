@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2017-10-09 16:29:47,417: init_node, name[/rosbridge_websocket], pid[29842]
+[xmlrpc][INFO] 2017-10-09 16:29:47,418: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-09 16:29:47,422: Started XML-RPC server [http://ip-172-31-19-100:35821/]
+[rospy.init][INFO] 2017-10-09 16:29:47,422: ROS Slave URI: [http://ip-172-31-19-100:35821/]
+[rospy.impl.masterslave][INFO] 2017-10-09 16:29:47,426: _ready: http://ip-172-31-19-100:35821/
+[xmlrpc][INFO] 2017-10-09 16:29:47,433: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-10-09 16:29:47,433: Registering with master node http://localhost:36278
+[rospy.init][INFO] 2017-10-09 16:29:47,530: registered with master
+[rospy.rosout][INFO] 2017-10-09 16:29:47,533: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-09 16:29:47,542: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-09 16:29:47,547: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2017-10-09 16:29:47,569: Rosbridge WebSocket server started on port 51214
+[rospy.internal][INFO] 2017-10-09 16:29:47,811: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2017-10-09 16:29:52,744: Client connected.  1 clients total.
+[rosout][INFO] 2017-10-09 16:29:53,108: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rosout][INFO] 2017-10-09 16:29:53,123: [Client 0] Subscribed to /visualization_marker
+[rospy.internal][INFO] 2017-10-09 16:29:53,128: topic[/visualization_marker] adding connection to [http://ip-172-31-19-100:43281/], count 0
+[rospy.internal][INFO] 2017-10-09 16:29:53,128: topic[/tf2_web_republisher/feedback] adding connection to [http://ip-172-31-19-100:35676/], count 0
+[rospy.internal][INFO] 2017-10-09 16:29:53,234: topic[/tf2_web_republisher/cancel] adding connection to [/tf2_web_republisher], count 0
+[rospy.internal][INFO] 2017-10-09 16:29:53,238: topic[/tf2_web_republisher/goal] adding connection to [/tf2_web_republisher], count 0

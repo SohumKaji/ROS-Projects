@@ -1,0 +1,9 @@
+
+
+1507605698.698051102  Node Startup
+1507605700.772953033 INFO [rosbridge_websocket:141(<module>) [topics: /rosout] Rosbridge WebSocket server started on port 49385
+1507605700.985131978 INFO [rosapi_node:184(<module>) [topics: /rosout] Rosapi started
+1507605708.129056930 INFO [websocket_handler.py:74(open) [topics: /rosout] Client connected.  1 clients total.
+1507605708.457331895 INFO [protocol.py:367(log) [topics: /tf2_web_republisher/cancel, /tf2_web_republisher/goal, /rosout, /tf2_web_republisher/feedback] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1507605708.470134973 INFO [protocol.py:367(log) [topics: /tf2_web_republisher/cancel, /tf2_web_republisher/goal, /visualization_marker, /rosout, /tf2_web_republisher/feedback] [Client 0] Subscribed to /visualization_marker
+1507608027.485363960 INFO [websocket_handler.py:109(on_close) [topics: /rosout] Client disconnected. 0 clients total.

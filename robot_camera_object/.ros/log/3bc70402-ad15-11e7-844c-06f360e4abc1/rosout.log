@@ -1,0 +1,5 @@
+
+
+1507569237.364483072  Node Startup
+1507569240.257991075 INFO [rosapi_node:184(<module>) [topics: /rosout] Rosapi started
+1507569240.105504035 INFO [rosbridge_websocket:141(<module>) [topics: /rosout] Rosbridge WebSocket server started on port 42936

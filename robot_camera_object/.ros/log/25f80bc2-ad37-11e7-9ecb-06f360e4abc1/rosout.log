@@ -1,0 +1,10 @@
+
+
+1507583803.717526416  Node Startup
+1507583806.448915004 INFO [rosapi_node:184(<module>) [topics: /rosout] Rosapi started
+1507583806.316680908 INFO [rosbridge_websocket:141(<module>) [topics: /rosout] Rosbridge WebSocket server started on port 56590
+1507583810.949244976 INFO [websocket_handler.py:74(open) [topics: /rosout] Client connected.  1 clients total.
+1507583811.302004098 INFO [protocol.py:367(log) [topics: /tf2_web_republisher/cancel, /tf2_web_republisher/goal, /rosout, /tf2_web_republisher/feedback] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1507583811.312782049 INFO [protocol.py:367(log) [topics: /tf2_web_republisher/cancel, /tf2_web_republisher/goal, /visualization_marker, /rosout, /tf2_web_republisher/feedback] [Client 0] Subscribed to /visualization_marker
+1507583836.110645055 INFO [websocket_handler.py:109(on_close) [topics: /rosout] Client disconnected. 0 clients total.
+1507583836.170443058 WARN [tcpros_base.py:345(_tcp_server_callback) [topics: /rosout] Could not process inbound connection: [/rosbridge_websocket] is not a publisher of [/tf2_web_republisher/goal]. Topics are [['/rosout', 'rosgraph_msgs/Log']]{'topic': '/tf2_web_republisher/goal', 'tcp_nodelay': '0', 'md5sum': 'ef8da891ba3ba9b13d97bca8154eaeb5', 'type': 'tf2_web_republisher/TFSubscriptionActionGoal', 'callerid': '/tf2_web_republisher'}

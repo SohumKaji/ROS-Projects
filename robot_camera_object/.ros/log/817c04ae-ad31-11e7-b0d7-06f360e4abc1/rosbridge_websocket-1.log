@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2017-10-09 13:36:22,648: init_node, name[/rosbridge_websocket], pid[10637]
+[xmlrpc][INFO] 2017-10-09 13:36:22,649: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-09 13:36:22,653: Started XML-RPC server [http://ip-172-31-19-100:50013/]
+[rospy.init][INFO] 2017-10-09 13:36:22,653: ROS Slave URI: [http://ip-172-31-19-100:50013/]
+[rospy.impl.masterslave][INFO] 2017-10-09 13:36:22,662: _ready: http://ip-172-31-19-100:50013/
+[xmlrpc][INFO] 2017-10-09 13:36:22,670: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-10-09 13:36:22,670: Registering with master node http://localhost:54216
+[rospy.init][INFO] 2017-10-09 13:36:22,766: registered with master
+[rospy.rosout][INFO] 2017-10-09 13:36:22,770: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-09 13:36:22,780: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-09 13:36:22,784: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2017-10-09 13:36:22,808: Rosbridge WebSocket server started on port 35162
+[rospy.internal][INFO] 2017-10-09 13:36:23,080: topic[/rosout] adding connection to [/rosout], count 0

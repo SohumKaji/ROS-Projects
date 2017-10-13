@@ -1,0 +1,39 @@
+[rospy.client][INFO] 2017-10-09 15:17:17,978: init_node, name[/rosbridge_websocket], pid[12741]
+[xmlrpc][INFO] 2017-10-09 15:17:17,978: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-09 15:17:17,985: Started XML-RPC server [http://ip-172-31-19-100:45480/]
+[rospy.init][INFO] 2017-10-09 15:17:17,985: ROS Slave URI: [http://ip-172-31-19-100:45480/]
+[rospy.impl.masterslave][INFO] 2017-10-09 15:17:17,989: _ready: http://ip-172-31-19-100:45480/
+[xmlrpc][INFO] 2017-10-09 15:17:17,997: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-10-09 15:17:17,997: Registering with master node http://localhost:54177
+[rospy.init][INFO] 2017-10-09 15:17:18,092: registered with master
+[rospy.rosout][INFO] 2017-10-09 15:17:18,096: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-09 15:17:18,106: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-09 15:17:18,111: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2017-10-09 15:17:18,141: Rosbridge WebSocket server started on port 36042
+[rospy.internal][INFO] 2017-10-09 15:17:18,372: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2017-10-09 15:17:25,832: Client connected.  1 clients total.
+[rosout][INFO] 2017-10-09 15:17:26,168: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rosout][INFO] 2017-10-09 15:17:26,180: [Client 0] Subscribed to /visualization_marker
+[rospy.internal][INFO] 2017-10-09 15:17:26,215: topic[/visualization_marker] adding connection to [http://ip-172-31-19-100:56579/], count 0
+[rospy.internal][INFO] 2017-10-09 15:17:26,216: topic[/tf2_web_republisher/feedback] adding connection to [http://ip-172-31-19-100:59355/], count 0
+[rospy.internal][INFO] 2017-10-09 15:17:26,418: topic[/tf2_web_republisher/cancel] adding connection to [/tf2_web_republisher], count 0
+[rospy.internal][INFO] 2017-10-09 15:17:26,467: topic[/tf2_web_republisher/goal] adding connection to [/tf2_web_republisher], count 0
+[rospy.internal][INFO] 2017-10-09 15:23:13,620: topic impl's ref count is zero, deleting topic /tf2_web_republisher/cancel...
+[rospy.internal][INFO] 2017-10-09 15:23:13,626: topic[/tf2_web_republisher/cancel] removing connection to /tf2_web_republisher
+[rospy.internal][INFO] 2017-10-09 15:23:13,670: topic impl's ref count is zero, deleting topic /tf2_web_republisher/goal...
+[rospy.internal][INFO] 2017-10-09 15:23:13,678: topic[/tf2_web_republisher/goal] removing connection to /tf2_web_republisher
+[rospy.internal][INFO] 2017-10-09 15:23:13,693: topic impl's ref count is zero, deleting topic /tf2_web_republisher/feedback...
+[rospy.internal][INFO] 2017-10-09 15:23:13,697: topic[/tf2_web_republisher/feedback] removing connection to http://ip-172-31-19-100:59355/
+[rospy.internal][INFO] 2017-10-09 15:23:13,705: topic impl's ref count is zero, deleting topic /visualization_marker...
+[rospy.internal][INFO] 2017-10-09 15:23:13,713: topic[/visualization_marker] removing connection to http://ip-172-31-19-100:56579/
+[rosout][INFO] 2017-10-09 15:23:13,721: Client disconnected. 0 clients total.
+[tornado.application][ERROR] 2017-10-09 15:23:13,725: Exception in callback <functools.partial object at 0x7fb9e50a69f0>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/tornado/ioloop.py", line 565, in _run_callback
+    ret = callback()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/tornado/stack_context.py", line 275, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/tornado/websocket.py", line 198, in write_message
+    raise WebSocketClosedError()
+WebSocketClosedError
+[rosout][WARNING] 2017-10-09 15:23:13,727: Could not process inbound connection: [/rosbridge_websocket] is not a publisher of [/tf2_web_republisher/cancel]. Topics are [['/rosout', 'rosgraph_msgs/Log']]{'topic': '/tf2_web_republisher/cancel', 'tcp_nodelay': '0', 'md5sum': '302881f31927c1df708a2dbab0e80ee8', 'type': 'actionlib_msgs/GoalID', 'callerid': '/tf2_web_republisher'}

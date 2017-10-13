@@ -1,0 +1,57 @@
+[roslaunch][INFO] 2017-10-09 15:01:28,670: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2017-10-09 15:01:28,781: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2017-10-09 15:01:28,781: roslaunch starting with args ['roscore', '--core', '-p', '59642']
+[roslaunch][INFO] 2017-10-09 15:01:28,785: roslaunch env is {'ROS_DISTRO': 'indigo', 'ASNLIB': '/home/ccc_v1_s80115__49396/asn17210_Project_2_/asn17211_Project_2/asnlib.0', 'LIB': '/home/ccc_v1_s80115__49396/lib', 'PKG_CONFIG_PATH': '/opt/ros/indigo/lib/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig', 'SSH_CLIENT': '172.31.43.31 59574 22', 'CPATH': '/opt/ros/indigo/include', 'LOGNAME': 'ccc_v1_w_NDU1M_86698', 'USER': 'ccc_v1_w_NDU1M_86698', 'ROS_NODE_PORT': '59642', 'HOME': '/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work', 'PATH': '/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/local/bin:/home/ccc_v1_s80115__49396/lib:/home/ccc_v1_s80115__49396/asn17210_Project_2_/asn17211_Project_2/asnlib.0:/home/vlibs:.', 'CMAKE_PREFIX_PATH': '/opt/ros/indigo', 'LD_LIBRARY_PATH': '/opt/ros/indigo/lib:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/ccc_v1_s80115__49396/lib:/home/ccc_v1_s80115__49396/asn17210_Project_2_/asn17211_Project_2/asnlib.0:/home/vlibs', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTFILE': '/home/ccc_v1_w_NDU1M_86698/.bash_history', 'SHLVL': '2', 'VOC_WORKAREA': '/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work', 'ROS_LOG_FILENAME': '/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work/.ros/log/66baf81c-ad3d-11e7-94af-06f360e4abc1/roslaunch-ip-172-31-19-100-28782.log', 'PART1': '/home/ccc_v1_s80115__49396/asn17210_Project_2_/asn17211_Project_2', 'ROS_ETC_DIR': '/opt/ros/indigo/etc/ros', 'XDG_RUNTIME_DIR': '/run/user/86698', 'PYTHONPATH': '/opt/ros/indigo/lib/python2.7/dist-packages:/home/vlibs/python', 'VOC_PROXY_WRAPPER_PORT': '5100', 'VOC_XFER_TOKEN': '961373563298812988117211059dbf1ac1aac78.25057887', 'ROS_ROOT': '/opt/ros/indigo/share/ros', 'OLD_HOME': '/home/ccc_v1_w_NDU1M_86698', 'VOC_PROXY_TOKEN': '9312944892988129881172110159dbf1ac205140.91822253', 'ROS_PACKAGE_PATH': '/opt/ros/indigo/share:/opt/ros/indigo/stacks', 'XDG_SESSION_ID': '127628', '_': '/usr/bin/stdbuf', 'LD_PRELOAD': '/usr/lib/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/home/ccc_v1_w_NDU1M_86698', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'VLIB': '/home/vlibs', 'PWD': '/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work', 'VOC_PROXY_ID': '29881_29881_17211_0_1', 'ROS_MASTER_URI': 'http://localhost:59642', 'MAIL': '/var/mail/ccc_v1_w_NDU1M_86698', 'SSH_CONNECTION': '172.31.43.31 59574 172.31.19.100 22'}
+[roslaunch][INFO] 2017-10-09 15:01:28,788: starting in server mode
+[roslaunch.parent][INFO] 2017-10-09 15:01:28,792: starting roslaunch parent run
+[roslaunch][INFO] 2017-10-09 15:01:28,795: loading roscore config file /opt/ros/indigo/etc/ros/roscore.xml
+[roslaunch][INFO] 2017-10-09 15:01:28,908: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2017-10-09 15:01:28,909: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2017-10-09 15:01:28,912: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2017-10-09 15:01:28,916: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2017-10-09 15:01:28,919: starting parent XML-RPC server
+[roslaunch.server][INFO] 2017-10-09 15:01:28,923: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2017-10-09 15:01:28,927: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2017-10-09 15:01:28,927: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-09 15:01:28,934: Started XML-RPC server [http://ip-172-31-19-100:45997/]
+[xmlrpc][INFO] 2017-10-09 15:01:28,937: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2017-10-09 15:01:28,945: started roslaunch server http://ip-172-31-19-100:45997/
+[roslaunch.parent][INFO] 2017-10-09 15:01:28,949: ... parent XML-RPC server started
+[roslaunch][INFO] 2017-10-09 15:01:28,952: master.is_running[http://ip-172-31-19-100:59642/]
+[roslaunch][INFO] 2017-10-09 15:01:28,957: auto-starting new master
+[roslaunch][INFO] 2017-10-09 15:01:28,961: create_master_process: rosmaster, /opt/ros/indigo/share/ros, 59642, 3, None
+[roslaunch][INFO] 2017-10-09 15:01:28,964: process[master]: launching with args [['rosmaster', '--core', '-p', '59642', '-w', '3']]
+[roslaunch.pmon][INFO] 2017-10-09 15:01:28,967: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2017-10-09 15:01:28,976: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2017-10-09 15:01:28,979: process[master]: starting os process
+[roslaunch][INFO] 2017-10-09 15:01:28,992: process[master]: start w/ args [['rosmaster', '--core', '-p', '59642', '-w', '3', '__log:=/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work/.ros/log/66baf81c-ad3d-11e7-94af-06f360e4abc1/master.log']]
+[roslaunch][INFO] 2017-10-09 15:01:28,995: process[master]: cwd will be [/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work/.ros]
+[roslaunch][INFO] 2017-10-09 15:01:29,003: process[master]: started with pid [28798]
+[roslaunch][INFO] 2017-10-09 15:01:29,004: master.is_running[http://ip-172-31-19-100:59642/]
+[roslaunch][INFO] 2017-10-09 15:01:29,109: master.is_running[http://ip-172-31-19-100:59642/]
+[roslaunch][INFO] 2017-10-09 15:01:29,213: master.is_running[http://ip-172-31-19-100:59642/]
+[roslaunch][INFO] 2017-10-09 15:01:29,218: master.is_running[http://ip-172-31-19-100:59642/]
+[roslaunch][INFO] 2017-10-09 15:01:29,223: ROS_MASTER_URI=http://ip-172-31-19-100:59642/
+[roslaunch][INFO] 2017-10-09 15:01:29,227: setting /run_id to 66baf81c-ad3d-11e7-94af-06f360e4abc1
+[roslaunch][INFO] 2017-10-09 15:01:29,236: setting /roslaunch/uris/host_ip_172_31_19_100__45997' to http://ip-172-31-19-100:45997/
+[roslaunch][INFO] 2017-10-09 15:01:29,244: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2017-10-09 15:01:29,248: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ip-172-31-19-100:59642/]
+[roslaunch][INFO] 2017-10-09 15:01:29,252: process[rosout-1]: env[{'ROS_DISTRO': 'indigo', 'ASNLIB': '/home/ccc_v1_s80115__49396/asn17210_Project_2_/asn17211_Project_2/asnlib.0', 'LIB': '/home/ccc_v1_s80115__49396/lib', 'VOC_PROXY_TOKEN': '9312944892988129881172110159dbf1ac205140.91822253', 'SSH_CLIENT': '172.31.43.31 59574 22', 'CPATH': '/opt/ros/indigo/include', 'LOGNAME': 'ccc_v1_w_NDU1M_86698', 'USER': 'ccc_v1_w_NDU1M_86698', 'ROS_NODE_PORT': '59642', 'HOME': '/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work', 'PATH': '/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/local/bin:/home/ccc_v1_s80115__49396/lib:/home/ccc_v1_s80115__49396/asn17210_Project_2_/asn17211_Project_2/asnlib.0:/home/vlibs:.', 'CMAKE_PREFIX_PATH': '/opt/ros/indigo', 'ROS_LOG_FILENAME': '/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work/.ros/log/66baf81c-ad3d-11e7-94af-06f360e4abc1/roslaunch-ip-172-31-19-100-28782.log', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTFILE': '/home/ccc_v1_w_NDU1M_86698/.bash_history', 'SHLVL': '2', 'VOC_WORKAREA': '/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work', 'LD_LIBRARY_PATH': '/opt/ros/indigo/lib:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/ccc_v1_s80115__49396/lib:/home/ccc_v1_s80115__49396/asn17210_Project_2_/asn17211_Project_2/asnlib.0:/home/vlibs', 'PART1': '/home/ccc_v1_s80115__49396/asn17210_Project_2_/asn17211_Project_2', 'ROS_MASTER_URI': 'http://ip-172-31-19-100:59642/', 'XDG_RUNTIME_DIR': '/run/user/86698', 'PYTHONPATH': '/opt/ros/indigo/lib/python2.7/dist-packages:/home/vlibs/python', 'VOC_PROXY_WRAPPER_PORT': '5100', 'VOC_XFER_TOKEN': '961373563298812988117211059dbf1ac1aac78.25057887', 'ROS_ROOT': '/opt/ros/indigo/share/ros', 'OLD_HOME': '/home/ccc_v1_w_NDU1M_86698', 'PKG_CONFIG_PATH': '/opt/ros/indigo/lib/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/indigo/share:/opt/ros/indigo/stacks', 'XDG_SESSION_ID': '127628', '_': '/usr/bin/stdbuf', 'LD_PRELOAD': '/usr/lib/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/home/ccc_v1_w_NDU1M_86698', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'VLIB': '/home/vlibs', 'PWD': '/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work', 'VOC_PROXY_ID': '29881_29881_17211_0_1', 'ROS_ETC_DIR': '/opt/ros/indigo/etc/ros', 'MAIL': '/var/mail/ccc_v1_w_NDU1M_86698', 'SSH_CONNECTION': '172.31.43.31 59574 172.31.19.100 22'}]
+[roslaunch][INFO] 2017-10-09 15:01:29,286: process[rosout-1]: args[[u'/opt/ros/indigo/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2017-10-09 15:01:29,294: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2017-10-09 15:01:29,298: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2017-10-09 15:01:29,302: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2017-10-09 15:01:29,305: ... registered process [rosout-1]
+[roslaunch][INFO] 2017-10-09 15:01:29,309: process[rosout-1]: starting os process
+[roslaunch][INFO] 2017-10-09 15:01:29,314: process[rosout-1]: start w/ args [[u'/opt/ros/indigo/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work/.ros/log/66baf81c-ad3d-11e7-94af-06f360e4abc1/rosout-1.log']]
+[roslaunch][INFO] 2017-10-09 15:01:29,318: process[rosout-1]: cwd will be [/home/ccc_v1_w_NDU1M_86698/asn17210_Project_2_/asn17211_Project_2/work/.ros]
+[roslaunch][INFO] 2017-10-09 15:01:29,327: process[rosout-1]: started with pid [28811]
+[roslaunch][INFO] 2017-10-09 15:01:29,328: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2017-10-09 15:01:29,332: load_parameters starting ...
+[roslaunch][INFO] 2017-10-09 15:01:29,344: ... load_parameters complete
+[roslaunch][INFO] 2017-10-09 15:01:29,348: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2017-10-09 15:01:29,351: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2017-10-09 15:01:29,355: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 139760258696960)>
+[roslaunch.parent][INFO] 2017-10-09 15:01:29,358: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2017-10-09 15:01:29,365: spin

@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2017-10-09 16:06:21,703: init_node, name[/rosbridge_websocket], pid[22789]
+[xmlrpc][INFO] 2017-10-09 16:06:21,704: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-09 16:06:21,708: Started XML-RPC server [http://ip-172-31-19-100:47004/]
+[rospy.init][INFO] 2017-10-09 16:06:21,708: ROS Slave URI: [http://ip-172-31-19-100:47004/]
+[rospy.impl.masterslave][INFO] 2017-10-09 16:06:21,711: _ready: http://ip-172-31-19-100:47004/
+[rospy.registration][INFO] 2017-10-09 16:06:21,719: Registering with master node http://localhost:49983
+[xmlrpc][INFO] 2017-10-09 16:06:21,719: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-09 16:06:21,815: registered with master
+[rospy.rosout][INFO] 2017-10-09 16:06:21,819: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-09 16:06:21,828: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-09 16:06:21,833: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2017-10-09 16:06:21,874: Rosbridge WebSocket server started on port 50187
+[rospy.internal][INFO] 2017-10-09 16:06:21,996: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2017-10-09 16:06:30,492: Client connected.  1 clients total.
+[rosout][INFO] 2017-10-09 16:06:30,864: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rosout][INFO] 2017-10-09 16:06:30,875: [Client 0] Subscribed to /visualization_marker
+[rospy.internal][INFO] 2017-10-09 16:06:30,909: topic[/tf2_web_republisher/feedback] adding connection to [http://ip-172-31-19-100:39709/], count 0
+[rospy.internal][INFO] 2017-10-09 16:06:30,909: topic[/visualization_marker] adding connection to [http://ip-172-31-19-100:53811/], count 0
+[rospy.internal][INFO] 2017-10-09 16:06:31,120: topic[/tf2_web_republisher/cancel] adding connection to [/tf2_web_republisher], count 0
+[rospy.internal][INFO] 2017-10-09 16:06:31,124: topic[/tf2_web_republisher/goal] adding connection to [/tf2_web_republisher], count 0
+[rospy.internal][INFO] 2017-10-09 16:07:15,625: topic impl's ref count is zero, deleting topic /tf2_web_republisher/cancel...
+[rospy.internal][INFO] 2017-10-09 16:07:15,626: topic[/tf2_web_republisher/cancel] removing connection to /tf2_web_republisher
+[rospy.internal][INFO] 2017-10-09 16:07:15,635: topic impl's ref count is zero, deleting topic /tf2_web_republisher/goal...
+[rospy.internal][INFO] 2017-10-09 16:07:15,646: topic[/tf2_web_republisher/goal] removing connection to /tf2_web_republisher
+[rospy.internal][INFO] 2017-10-09 16:07:15,656: topic impl's ref count is zero, deleting topic /tf2_web_republisher/feedback...
+[rospy.internal][INFO] 2017-10-09 16:07:15,665: topic[/tf2_web_republisher/feedback] removing connection to http://ip-172-31-19-100:39709/
+[rospy.internal][INFO] 2017-10-09 16:07:15,674: topic impl's ref count is zero, deleting topic /visualization_marker...
+[rospy.internal][INFO] 2017-10-09 16:07:15,677: topic[/visualization_marker] removing connection to http://ip-172-31-19-100:53811/
+[rosout][INFO] 2017-10-09 16:07:15,685: Client disconnected. 0 clients total.

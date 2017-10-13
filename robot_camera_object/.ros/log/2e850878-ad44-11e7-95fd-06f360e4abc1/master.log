@@ -1,0 +1,108 @@
+[rosmaster.main][INFO] 2017-10-09 15:50:01,392: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-10-09 15:50:01,392: Starting ROS Master Node
+[xmlrpc][INFO] 2017-10-09 15:50:01,399: XML-RPC server binding to 0.0.0.0:49206
+[xmlrpc][INFO] 2017-10-09 15:50:01,403: Started XML-RPC server [http://ip-172-31-19-100:49206/]
+[rosmaster.master][INFO] 2017-10-09 15:50:01,403: Master initialized: port[49206], uri[http://ip-172-31-19-100:49206/]
+[xmlrpc][INFO] 2017-10-09 15:50:01,406: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-10-09 15:50:01,509: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:01,518: +PARAM [/roslaunch/uris/host_ip_172_31_19_100__58708] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:01,626: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:01,630: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:01,637: +SERVICE [/rosout/get_loggers] /rosout http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,649: +SERVICE [/rosout/set_logger_level] /rosout http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,657: +PUB [/rosout_agg] /rosout http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,667: +SUB [/rosout] /rosout http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,804: +PUB [/rosout] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,810: +SERVICE [/tf2_web_republisher/get_loggers] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,814: +SERVICE [/tf2_web_republisher/set_logger_level] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,822: +SUB [/tf] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,832: +SUB [/tf_static] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,837: +SERVICE [/republish_tfs] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,843: +PUB [/tf2_web_republisher/result] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,847: +PUB [/tf2_web_republisher/feedback] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,852: +PUB [/tf2_web_republisher/status] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,861: +SUB [/tf2_web_republisher/goal] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,868: +SUB [/tf2_web_republisher/cancel] /tf2_web_republisher http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:01,900: publisherUpdate[/rosout] -> http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:50:03,300: +PARAM [/roslaunch/uris/host_ip_172_31_19_100__39785] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:03,307: +PARAM [/rosbridge_websocket/port] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:03,312: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:03,316: +PARAM [/rosbridge_websocket/fragment_timeout] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:03,320: +PARAM [/rosbridge_websocket/delay_between_messages] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:03,323: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:03,327: +PARAM [/rosbridge_websocket/authenticate] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:03,337: +PARAM [/rosbridge_websocket/retry_startup_delay] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:03,341: +PARAM [/rosbridge_websocket/address] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:03,344: +PARAM [/rosbridge_websocket/max_message_size] by /roslaunch
+[rosmaster.master][INFO] 2017-10-09 15:50:03,477: +PUB [/rosout] /marker_publisher http://ip-172-31-19-100:52879/
+[rosmaster.master][INFO] 2017-10-09 15:50:03,481: +SERVICE [/marker_publisher/get_loggers] /marker_publisher http://ip-172-31-19-100:52879/
+[rosmaster.master][INFO] 2017-10-09 15:50:03,486: +SERVICE [/marker_publisher/set_logger_level] /marker_publisher http://ip-172-31-19-100:52879/
+[rosmaster.master][INFO] 2017-10-09 15:50:03,491: +PUB [/visualization_marker] /marker_publisher http://ip-172-31-19-100:52879/
+[rosmaster.master][INFO] 2017-10-09 15:50:03,502: publisherUpdate[/rosout] -> http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,012: +PUB [/rosout] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,012: publisherUpdate[/rosout] -> http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,023: +PUB [/rosout] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,027: +SERVICE [/rosbridge_websocket/get_loggers] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,031: +SERVICE [/rosbridge_websocket/set_logger_level] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,037: +SERVICE [/rosapi/get_loggers] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,042: +SERVICE [/rosapi/set_logger_level] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,047: +SERVICE [/rosapi/topics] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,052: +SERVICE [/rosapi/topics_for_type] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,065: +SERVICE [/rosapi/services] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,070: +SERVICE [/rosapi/services_for_type] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,075: +SERVICE [/rosapi/nodes] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,079: +SERVICE [/rosapi/node_details] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,084: +SERVICE [/rosapi/topic_type] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,088: +SERVICE [/rosapi/service_type] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,093: +SERVICE [/rosapi/publishers] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,097: +SERVICE [/rosapi/subscribers] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,103: +SERVICE [/rosapi/service_providers] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,103: publisherUpdate[/rosout] -> http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,108: +SERVICE [/rosapi/service_node] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,122: +SERVICE [/rosapi/service_host] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,126: +SERVICE [/rosapi/message_details] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,131: +SERVICE [/rosapi/service_request_details] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,135: +SERVICE [/rosapi/service_response_details] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,139: +SERVICE [/rosapi/set_param] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,144: +SERVICE [/rosapi/get_param] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,154: +SERVICE [/rosapi/has_param] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,158: +SERVICE [/rosapi/search_param] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,163: +SERVICE [/rosapi/delete_param] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,167: +SERVICE [/rosapi/get_param_names] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:04,171: +SERVICE [/rosapi/get_time] /rosapi http://ip-172-31-19-100:38692/
+[rosmaster.master][INFO] 2017-10-09 15:50:06,667: +PUB [/rosout] /project2_solution http://ip-172-31-19-100:58902/
+[rosmaster.master][INFO] 2017-10-09 15:50:06,680: +SERVICE [/project2_solution/get_loggers] /project2_solution http://ip-172-31-19-100:58902/
+[rosmaster.master][INFO] 2017-10-09 15:50:06,689: +SERVICE [/project2_solution/set_logger_level] /project2_solution http://ip-172-31-19-100:58902/
+[rosmaster.master][INFO] 2017-10-09 15:50:06,694: +PUB [/tf] /project2_solution http://ip-172-31-19-100:58902/
+[rosmaster.master][INFO] 2017-10-09 15:50:06,722: publisherUpdate[/rosout] -> http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:50:06,725: publisherUpdate[/tf] -> http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:11,159: +PUB [/tf2_web_republisher/goal] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:50:11,167: +PUB [/tf2_web_republisher/cancel] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:50:11,174: +SUB [/tf2_web_republisher/feedback] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:50:11,185: +SUB [/visualization_marker] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:50:11,233: publisherUpdate[/tf2_web_republisher/goal] -> http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:11,243: publisherUpdate[/tf2_web_republisher/cancel] -> http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:50:32,347: -PUB [/rosout] /project2_solution http://ip-172-31-19-100:58902/
+[rosmaster.master][INFO] 2017-10-09 15:50:32,351: -PUB [/tf] /project2_solution http://ip-172-31-19-100:58902/
+[rosmaster.master][INFO] 2017-10-09 15:50:32,354: -SERVICE [/project2_solution/get_loggers] /project2_solution rosrpc://ip-172-31-19-100:42732
+[rosmaster.master][INFO] 2017-10-09 15:50:32,358: -SERVICE [/project2_solution/set_logger_level] /project2_solution rosrpc://ip-172-31-19-100:42732
+[rosmaster.master][INFO] 2017-10-09 15:50:32,369: publisherUpdate[/rosout] -> http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:50:32,372: publisherUpdate[/tf] -> http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:53:16,071: +PUB [/rosout] /project2_solution http://ip-172-31-19-100:56074/
+[rosmaster.master][INFO] 2017-10-09 15:53:16,087: +SERVICE [/project2_solution/get_loggers] /project2_solution http://ip-172-31-19-100:56074/
+[rosmaster.master][INFO] 2017-10-09 15:53:16,092: +SERVICE [/project2_solution/set_logger_level] /project2_solution http://ip-172-31-19-100:56074/
+[rosmaster.master][INFO] 2017-10-09 15:53:16,096: +PUB [/tf] /project2_solution http://ip-172-31-19-100:56074/
+[rosmaster.master][INFO] 2017-10-09 15:53:16,140: publisherUpdate[/rosout] -> http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:53:16,142: publisherUpdate[/tf] -> http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:53:17,687: -PUB [/rosout] /project2_solution http://ip-172-31-19-100:56074/
+[rosmaster.master][INFO] 2017-10-09 15:53:17,690: -PUB [/tf] /project2_solution http://ip-172-31-19-100:56074/
+[rosmaster.master][INFO] 2017-10-09 15:53:17,694: -SERVICE [/project2_solution/get_loggers] /project2_solution rosrpc://ip-172-31-19-100:33343
+[rosmaster.master][INFO] 2017-10-09 15:53:17,697: -SERVICE [/project2_solution/set_logger_level] /project2_solution rosrpc://ip-172-31-19-100:33343
+[rosmaster.master][INFO] 2017-10-09 15:53:17,748: publisherUpdate[/rosout] -> http://ip-172-31-19-100:55175/
+[rosmaster.master][INFO] 2017-10-09 15:53:17,752: publisherUpdate[/tf] -> http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:53:35,334: -PUB [/tf2_web_republisher/cancel] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:53:35,346: -PUB [/tf2_web_republisher/goal] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:53:35,358: -SUB [/tf2_web_republisher/feedback] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:53:35,371: -SUB [/visualization_marker] /rosbridge_websocket http://ip-172-31-19-100:46556/
+[rosmaster.master][INFO] 2017-10-09 15:53:35,381: publisherUpdate[/tf2_web_republisher/cancel] -> http://ip-172-31-19-100:56375/
+[rosmaster.master][INFO] 2017-10-09 15:53:35,385: publisherUpdate[/tf2_web_republisher/goal] -> http://ip-172-31-19-100:56375/

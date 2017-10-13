@@ -1,0 +1,10 @@
+
+
+1507590651.534932612  Node Startup
+1507590654.060019969 INFO [rosapi_node:184(<module>) [topics: /rosout] Rosapi started
+1507590653.903539896 INFO [rosbridge_websocket:141(<module>) [topics: /rosout] Rosbridge WebSocket server started on port 39682
+1507590658.923022031 INFO [websocket_handler.py:74(open) [topics: /rosout] Client connected.  1 clients total.
+1507590659.286145925 INFO [protocol.py:367(log) [topics: /tf2_web_republisher/cancel, /tf2_web_republisher/goal, /rosout, /tf2_web_republisher/feedback] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1507590659.302719116 INFO [protocol.py:367(log) [topics: /tf2_web_republisher/cancel, /tf2_web_republisher/goal, /visualization_marker, /rosout, /tf2_web_republisher/feedback] [Client 0] Subscribed to /visualization_marker
+1507590694.222252123 ERROR [/tmp/binarydeb/ros-indigo-tf2-web-republisher-0.3.0/src/tf_web_republisher.cpp:315(updateSubscriptions) [topics: /rosout, /tf2_web_republisher/result, /tf2_web_republisher/feedback, /tf2_web_republisher/status] Lookup would require extrapolation at time 1507590694.215245962, but only time 1507590694.216476917 is in the buffer, when looking up transform from frame [camera_frame] to frame [base_frame]
+1507590699.311305999 INFO [websocket_handler.py:109(on_close) [topics: /rosout] Client disconnected. 0 clients total.

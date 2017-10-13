@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2017-10-09 16:13:10,212: init_node, name[/rosbridge_websocket], pid[31462]
+[xmlrpc][INFO] 2017-10-09 16:13:10,213: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-09 16:13:10,217: Started XML-RPC server [http://ip-172-31-19-100:34777/]
+[rospy.init][INFO] 2017-10-09 16:13:10,217: ROS Slave URI: [http://ip-172-31-19-100:34777/]
+[rospy.impl.masterslave][INFO] 2017-10-09 16:13:10,221: _ready: http://ip-172-31-19-100:34777/
+[xmlrpc][INFO] 2017-10-09 16:13:10,233: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-10-09 16:13:10,233: Registering with master node http://localhost:52893
+[rospy.init][INFO] 2017-10-09 16:13:10,324: registered with master
+[rospy.rosout][INFO] 2017-10-09 16:13:10,328: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-09 16:13:10,339: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-09 16:13:10,343: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2017-10-09 16:13:10,379: Rosbridge WebSocket server started on port 37101
+[rospy.internal][INFO] 2017-10-09 16:13:10,587: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2017-10-09 16:13:16,245: Client connected.  1 clients total.
+[rosout][INFO] 2017-10-09 16:13:16,596: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rosout][INFO] 2017-10-09 16:13:16,608: [Client 0] Subscribed to /visualization_marker
+[rospy.internal][INFO] 2017-10-09 16:13:16,625: topic[/visualization_marker] adding connection to [http://ip-172-31-19-100:35801/], count 0
+[rospy.internal][INFO] 2017-10-09 16:13:16,625: topic[/tf2_web_republisher/feedback] adding connection to [http://ip-172-31-19-100:48408/], count 0
+[rospy.internal][INFO] 2017-10-09 16:13:16,726: topic[/tf2_web_republisher/cancel] adding connection to [/tf2_web_republisher], count 0
+[rospy.internal][INFO] 2017-10-09 16:13:16,731: topic[/tf2_web_republisher/goal] adding connection to [/tf2_web_republisher], count 0
+[rospy.internal][INFO] 2017-10-09 16:17:51,066: topic impl's ref count is zero, deleting topic /tf2_web_republisher/cancel...
+[rospy.internal][INFO] 2017-10-09 16:17:51,067: topic[/tf2_web_republisher/cancel] removing connection to /tf2_web_republisher
+[rospy.internal][INFO] 2017-10-09 16:17:51,082: topic impl's ref count is zero, deleting topic /tf2_web_republisher/goal...
+[rospy.internal][INFO] 2017-10-09 16:17:51,086: topic[/tf2_web_republisher/goal] removing connection to /tf2_web_republisher
+[rospy.internal][INFO] 2017-10-09 16:17:51,094: topic impl's ref count is zero, deleting topic /tf2_web_republisher/feedback...
+[rospy.internal][INFO] 2017-10-09 16:17:51,098: topic[/tf2_web_republisher/feedback] removing connection to http://ip-172-31-19-100:48408/
+[rospy.internal][INFO] 2017-10-09 16:17:51,105: topic impl's ref count is zero, deleting topic /visualization_marker...
+[rospy.internal][INFO] 2017-10-09 16:17:51,109: topic[/visualization_marker] removing connection to http://ip-172-31-19-100:35801/
+[rosout][INFO] 2017-10-09 16:17:51,126: Client disconnected. 0 clients total.
+[rosout][WARNING] 2017-10-09 16:17:51,168: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-10-09 16:17:51,172: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
